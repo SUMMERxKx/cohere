@@ -1,8 +1,8 @@
 /* General body styling */
 body {
   font-family: Arial, sans-serif;
-  background-color: #ffffff; /* White background */
-  color: #003366; /* Dark blue text */
+  background-color: #f0fff0; /* Light green background */
+  color: #4b0082; /* Indigo (dark purple) text */
   margin: 0;
   padding: 0;
 }
@@ -12,8 +12,8 @@ body {
   width: 100%;
   max-width: 600px;
   margin: 20px auto;
-  background: linear-gradient(135deg, #f0f8ff, #ffffff); /* Blue to white gradient */
-  border: 1px solid #003366; /* Dark blue border */
+  background: linear-gradient(135deg, #e6e6fa, #f0fff0); /* Lavender to light green gradient */
+  border: 1px solid #4b0082; /* Indigo (dark purple) border */
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
@@ -21,8 +21,8 @@ body {
 
 /* Header styling */
 .chatbot-header {
-  background-color: #003366; /* Dark blue */
-  color: #ffffff; /* White text */
+  background-color: #4b0082; /* Indigo (dark purple) */
+  color: #ffa500; /* Orange text */
   padding: 15px;
   font-size: 1.5em;
   text-align: center;
@@ -35,33 +35,32 @@ body {
   padding: 20px;
   height: 400px;
   overflow-y: scroll;
-  border-top: 1px solid #003366; /* Dark blue border */
-  border-bottom: 1px solid #003366; /* Dark blue border */
+  border-top: 1px solid #4b0082; /* Indigo (dark purple) border */
+  border-bottom: 1px solid #4b0082; /* Indigo (dark purple) border */
 }
 
 /* Message styling */
-.user-message,
-.bot-message {
+.user-message, .bot-message {
   margin-bottom: 10px;
   padding: 10px;
   border-radius: 10px;
 }
 
 .user-message {
-  background-color: #cce6ff; /* Light blue */
-  color: #003366; /* Dark blue text */
+  background-color: #ffa500; /* Orange */
+  color: #ffffff; /* White text */
   text-align: right;
 }
 
 .bot-message {
-  background-color: #f0f8ff; /* Lighter blue background */
-  color: #003366; /* Dark blue text */
+  background-color: #e6e6fa; /* Lavender background */
+  color: #4b0082; /* Indigo (dark purple) text */
 }
 
 /* Input area styling */
 .input-area {
   display: flex;
-  border-top: 1px solid #003366; /* Dark blue border */
+  border-top: 1px solid #4b0082; /* Indigo (dark purple) border */
 }
 
 .input-area input {
@@ -70,13 +69,13 @@ body {
   border: none;
   font-size: 1em;
   outline: none;
-  background-color: #f0f8ff; /* Light blue background */
-  color: #003366; /* Dark blue text */
+  background-color: #f0fff0; /* Light green background */
+  color: #4b0082; /* Indigo (dark purple) text */
 }
 
 .input-area button {
-  background-color: #003366; /* Dark blue */
-  color: white;
+  background-color: #4b0082; /* Indigo (dark purple) */
+  color: #ffa500; /* Orange text */
   border: none;
   padding: 10px 20px;
   cursor: pointer;
@@ -84,12 +83,12 @@ body {
 }
 
 .input-area button:hover {
-  background-color: #002244; /* Darker blue on hover */
+  background-color: #8a2be2; /* Lighter purple on hover */
 }
 
 /* Responsive design */
 @media (max-width: 600px) {
   .chatbot-container {
-      width: 95%;
+    width: 95%;
   }
 }
